@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+ 
+  <ul class="navbar-nav">
+   <%= link_to root_path, class: "nav-link" do %>
+        <i class="fas fa-sign-in-alt"></i> Hotel
+      <% end %>
+    <%= link_to new_admin_user_session_path, class: "nav-link" do %>
+        <i class="fas fa-sign-in-alt"></i> Login
+      <% end %>
+    <%= link_to gallery_index_path, class: "nav-link" do %>
+        <i class="fas fa-sign-in-alt"></i> Gallery
+      <% end %>
+    <%= link_to contact_index_path, class: "nav-link" do %>
+        <i class="fas fa-sign-in-alt"></i> Contact
+      <% end %>
+  </ul>
+</nav>
